@@ -139,7 +139,7 @@ function App() {
         <section className="about-me">
           <h2>About Me</h2>
           <img
-            src="src/assets/photo_2024-11-25_06-50-13.jpg"
+            src="https://i.ibb.co/s3sR9pn/photo-2024-11-25-06-50-13.jpg"
             alt="Founder of Archie Apes"
             className="founder-image"
           />
