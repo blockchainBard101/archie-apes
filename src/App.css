@@ -1,0 +1,288 @@
+/* App-wide Styling */
+/* App-wide Styling */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #f3f4f6;
+  background-color: #111827;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Center the .app container */
+.app {
+  max-width: 1200px;
+  /* Set a maximum width for your content */
+  margin: 0 auto;
+  /* Horizontally center the content */
+  width: 100%;
+  /* Ensure it doesn't exceed the screen width */
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  color: #f59e0b;
+  /* Vibrant gold accent */
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 4rem 2rem;
+  background: linear-gradient(135deg, #1f2937, #111827);
+}
+
+.hero-logo {
+  width: 150px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+.hero-title {
+  font-size: 2.5rem;
+  margin: 1rem 0;
+}
+
+.hero-description {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  max-width: 600px;
+  margin: 0 auto 2rem;
+}
+
+.btn-primary {
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 25px;
+  background-color: #f59e0b;
+  color: #111827;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.btn-primary:hover {
+  transform: scale(1.05);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Gallery Section */
+.gallery {
+  text-align: center;
+  padding: 4rem 2rem;
+}
+
+.gallery-banner {
+  max-width: 100%;
+  border-radius: 12px;
+  margin-bottom: 2rem;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+}
+
+.gallery-item {
+  width: 100%;
+  border-radius: 8px;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.gallery-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Roadmap Section */
+.roadmap {
+  padding: 4rem 2rem;
+  background-color: #1f2937;
+}
+
+.roadmap-stages {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.roadmap-stage {
+  padding: 1.5rem;
+  border-radius: 8px;
+  background-color: #111827;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.roadmap-title {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.roadmap-description {
+  line-height: 1.6;
+}
+
+/* About Section */
+.about,
+.about-me {
+  padding: 2rem 2rem;
+  /* Adjusted padding */
+}
+
+.about-content,
+.about-founder {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.founder-image {
+  width: 150px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 2rem 1rem;
+  background-color: #1f2937;
+}
+
+.footer h3 {
+  font-size: 1.5rem;
+}
+
+.footer p {
+  margin: 0.5rem 0;
+  line-height: 1.6;
+  color: #d1d5db;
+}
+
+.app {
+  width: 100%;
+  max-width: 1200px;
+  /* Limit width for better readability */
+  text-align: center;
+  padding: 2rem;
+  box-sizing: border-box;
+  overflow-y: auto;
+  /* Enable scrolling for overflow content */
+}
+
+/* Smooth scrolling for better user experience */
+.app::-webkit-scrollbar {
+  width: 6px;
+}
+
+.app::-webkit-scrollbar-thumb {
+  background: #f59e0b;
+  border-radius: 3px;
+}
+
+.app::-webkit-scrollbar-track {
+  background: #1f2937;
+}
+
+/* Social Links in Footer */
+.social-links {
+  margin-top: 1rem;
+}
+
+.social-icon {
+  margin: 0 0.5rem;
+  color: #f59e0b;
+  /* Gold color for the icons */
+  font-size: 1.5rem;
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.social-icon:hover {
+  color: #ffffff;
+  /* Highlight on hover */
+  transform: scale(1.1);
+}
+
+/* Top-middle corner links */
+
+.top-links .social-icon {
+  color: #f59e0b;
+  /* Gold color for the icons */
+  font-size: 1.5rem;
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.top-links .social-icon:hover {
+  color: #ffffff;
+  /* Highlight on hover */
+  transform: scale(1.1);
+}
+
+/* Hero Section - Top Links */
+.top-links {
+  margin-top: 2rem;
+  /* Adds spacing between the hero content and links */
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  /* Space between the icons */
+}
+
+.social-icon {
+  color: #f59e0b;
+  /* Gold accent */
+  font-size: 1.5rem;
+  transition: color 0.2s;
+}
+
+.social-icon:hover {
+  color: #f3f4f6;
+  /* Light hover effect */
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 2rem;
+  }
+
+  .hero-description {
+    font-size: 1rem;
+    padding: 0 1rem;
+  }
+
+  .gallery-grid {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  }
+
+  .btn-primary {
+    font-size: 0.9rem;
+    padding: 0.5rem 1rem;
+  }
+
+    .about,
+    .about-me {
+      padding: 1.5rem 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+  .top-links {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .social-icon {
+    font-size: 1.2rem;
+  }
+}
