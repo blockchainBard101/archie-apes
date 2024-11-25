@@ -139,7 +139,7 @@ function App() {
         <section className="about-me">
           <h2>About Me</h2>
           <img
-            src="https://img1.wsimg.com/isteam/ip/33669d2b-011a-4977-87e9-cf9c3f2b5fd8/blob-c1ccadb.png/:/cr=t:5.48%25,l:0%25,w:94.52%25,h:94.52%25"
+            src="src/assets/photo_2024-11-25_06-50-13.jpg"
             alt="Founder of Archie Apes"
             className="founder-image"
           />

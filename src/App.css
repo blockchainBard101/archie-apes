@@ -133,6 +133,7 @@ a {
   line-height: 1.6;
 }
 
+
 /* About Section */
 .about,
 .about-me {
@@ -148,8 +149,9 @@ a {
 
 .founder-image {
   width: 150px;
-  border-radius: 50%;
+  border-radius: 5%;
   margin-bottom: 1rem;
+
 }
 
 /* Footer */
