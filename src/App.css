@@ -253,7 +253,7 @@ a {
 }
 
 .top-banner {
-  background-color: #f59e0b; /* Vibrant gold for attention */
+/*   background-color: #f59e0b; /* Vibrant gold for attention */ */
   color: #111827; /* Dark text for contrast */
   text-align: center;
   padding: 1rem 2rem;
@@ -283,7 +283,7 @@ a {
 }
 
 .coming-soon-badge {
-/*   background-color: #ff4500; */
+  background-color: #ff4500;
   color: #fff;
   padding: 0.3em 0.6em;
   border-radius: 5px;
