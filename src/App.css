@@ -265,7 +265,7 @@ a {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
 }
 
-banner-link{
+.banner-link{
   color: #ff4500;
 }
 
@@ -276,7 +276,7 @@ banner-link{
 }
 
 .banner-text a {
-  color: #111827; /* Same as the text color */
+  /* Same as the text color */
   text-decoration: underline;
   font-weight: bold;
   transition: color 0.2s ease;
