@@ -26,7 +26,7 @@ function App() {
 
   <div className="top-banner">
     <p className="banner-text">
-  🚀 <a href="#roadmap" className="banner-link">**Stage 2 Coming Soon!**</a> Holders of 15 Archie Apes will receive 1 Mutant Ape. Stay tuned for updates! 🎉
+  🚀 <a href="#roadmap" className="banner-link">Stage 2 Coming Soon! </a> Holders of 15 Archie Apes will receive 1 Mutant Ape. Stay tuned for updates! 🎉
     </p>
   </div>
 
