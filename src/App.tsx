@@ -96,13 +96,13 @@ function App() {
             <div className="roadmap-stage">
               <h3 className="roadmap-title">Stage 1</h3>
               <p className="roadmap-description">
-                Mint goes live! Secure your Archie Apes now.
+                Mint sold out! All 3,333 Archie Apes have been sucured.
               </p>
             </div>
             <div className="roadmap-stage">
               <h3 className="roadmap-title">Stage 2</h3>
               <p className="roadmap-description">
-                Holders of 15 Archie Apes will receive 1 Mutant Ape. Mutant Apes
+                Coming soon! Holders of 15 Archie Apes will receive 1 Mutant Ape. Mutant Apes
                 will have a very limited supply of 333 with exclusive perks on
                 the horizon!
               </p>
