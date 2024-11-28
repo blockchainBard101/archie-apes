@@ -5,55 +5,62 @@ function App() {
     <div className="app">
       {/* Hero Section */}
       <header className="hero">
-        <div className="hero-content">
-          <img
-            src="https://pbs.twimg.com/profile_images/1851717473839575040/UmmETYLp_400x400.jpg"
-            alt="Ape Chain Logo"
-            className="hero-logo"
-          />
-          <h1 className="hero-title">Archie Apes NFT Collection</h1>
-          <p className="hero-description">
-            3333 unique NFTs on Ape Chain! Where innovation meets creativity,
-            and the community drives the vision.
-          </p>
-          <a
-            rel="noopener noreferrer"
-            className="btn btn-primary"
-          >
-            Minted Out
-          </a>
-        </div>
+  <div className="hero-content">
+    <img
+      src="https://pbs.twimg.com/profile_images/1851717473839575040/UmmETYLp_400x400.jpg"
+      alt="Ape Chain Logo"
+      className="hero-logo"
+    />
+    <h1 className="hero-title">Archie Apes NFT Collection</h1>
+    <p className="hero-description">
+      3333 unique NFTs on Ape Chain! Where innovation meets creativity,
+      and the community drives the vision.
+    </p>
+    <a
+      rel="noopener noreferrer"
+      className="btn btn-primary"
+    >
+      Minted Out
+    </a>
+  </div>
 
-        <div className="top-links">
-          <a
-            href="https://apescan.io/address/0x093414B375ecE9Ef24Dfa3Aa34ab14a4B4c244c9"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="ApeScan"
-            className="social-icon"
-          >
-            <i className="fas fa-link"></i>
-          </a>
-          <a
-            href="https://twitter.com/archieapes?t=fVXVfrQB6mE07m-EPpht4w&s=09"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="Twitter"
-            className="social-icon"
-          >
-            <i className="fab fa-twitter"></i>
-          </a>
-          <a
-            href="https://magiceden.io/collections/apechain/0x093414B375ecE9Ef24Dfa3Aa34ab14a4B4c244c9"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="Magic Eden"
-            className="social-icon"
-          >
-            <i className="fas fa-magic"></i>
-          </a>
-        </div>
-      </header>
+  <div className="top-banner">
+    <p className="banner-text">
+      🚀 **Stage 2 Coming Soon!** Holders of 15 Archie Apes will receive 1 Mutant Ape. Stay tuned for updates! 🎉
+    </p>
+  </div>
+
+  <div className="top-links">
+    <a
+      href="https://apescan.io/address/0x093414B375ecE9Ef24Dfa3Aa34ab14a4B4c244c9"
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="ApeScan"
+      className="social-icon"
+    >
+      <i className="fas fa-link"></i>
+    </a>
+    <a
+      href="https://twitter.com/archieapes?t=fVXVfrQB6mE07m-EPpht4w&s=09"
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="Twitter"
+      className="social-icon"
+    >
+      <i className="fab fa-twitter"></i>
+    </a>
+    <a
+      href="https://magiceden.io/collections/apechain/0x093414B375ecE9Ef24Dfa3Aa34ab14a4B4c244c9"
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="Magic Eden"
+      className="social-icon"
+    >
+      <i className="fas fa-magic"></i>
+    </a>
+  </div>
+</header>
+
 
       {/* Gallery Section */}
       <main>
