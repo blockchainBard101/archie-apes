@@ -282,6 +282,16 @@ a {
   color: #ffffff; /* Highlight the link on hover */
 }
 
+.coming-soon-badge {
+  background-color: #ff4500;
+  color: #fff;
+  padding: 0.3em 0.6em;
+  border-radius: 5px;
+  font-size: 0.9em;
+  margin-right: 0.5em;
+}
+
+
 /* Responsive Adjustments */
 @media (max-width: 768px) {
   .hero-title {
