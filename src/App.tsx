@@ -26,7 +26,7 @@ function App() {
 
   <div className="top-banner">
     <p className="banner-text">
-      🚀 **Stage 2 Coming Soon!** Holders of 15 Archie Apes will receive 1 Mutant Ape. Stay tuned for updates! 🎉
+  🚀 <a href="#roadmap" className="banner-link">**Stage 2 Coming Soon!**</a> Holders of 15 Archie Apes will receive 1 Mutant Ape. Stay tuned for updates! 🎉
     </p>
   </div>
 
@@ -108,8 +108,9 @@ function App() {
             </div>
             <div className="roadmap-stage">
               <h3 className="roadmap-title">Stage 2</h3>
-              <p className="roadmap-description">
-                Coming soon! Holders of 15 Archie Apes will receive 1 Mutant Ape. Mutant Apes
+               <p className="roadmap-description">
+                <span className="coming-soon-badge">Coming Soon!</span> 
+                Holders of 15 Archie Apes will receive 1 Mutant Ape. Mutant Apes
                 will have a very limited supply of 333 with exclusive perks on
                 the horizon!
               </p>
