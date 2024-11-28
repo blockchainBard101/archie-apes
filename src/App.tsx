@@ -17,12 +17,10 @@ function App() {
             and the community drives the vision.
           </p>
           <a
-            href="https://archie-apes.nfts2.me"
-            target="_blank"
             rel="noopener noreferrer"
             className="btn btn-primary"
           >
-            Mint Now
+            Minted Out
           </a>
         </div>
 
