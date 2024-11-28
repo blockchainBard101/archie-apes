@@ -97,7 +97,7 @@ function App() {
         </section>
 
         {/* Roadmap Section */}
-        <section className="roadmap">
+        <section className="roadmap" id="roadmap">
           <h2 className="section-title">Roadmap</h2>
           <div className="roadmap-stages">
             <div className="roadmap-stage">
