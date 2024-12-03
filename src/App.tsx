@@ -43,7 +43,7 @@ function App() {
             <i className="fas fa-link"></i>
           </a>
           <a
-            href="https://twitter.com/archieapes_"
+            href="https://x.com/archieapes_?s=09"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Twitter"
