@@ -237,7 +237,7 @@ function App() {
             <i className="fas fa-link"></i>
           </a>
           <a
-            href="https://twitter.com/archieapes?t=fVXVfrQB6mE07m-EPpht4w&s=09"
+            href="https://x.com/archieapes_?s=09"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Twitter"
@@ -253,6 +253,16 @@ function App() {
             className="social-icon"
           >
             <i className="fas fa-magic"></i>
+          </a>
+
+          <a
+            href="https://discord.com/invite/8ARvc2ac"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Discord"
+            className="social-icon"
+          >
+            <i className="fab fa-discord"></i>
           </a>
         </div>
         <p>© 2024 Archie Apes - All Rights Reserved.</p>
