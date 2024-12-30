@@ -72,7 +72,7 @@ function App() {
           </p>
         </div>
 
-        <div className="top-links">
+        <div className="social-links">
           <a
             href="https://apescan.io/address/0x093414B375ecE9Ef24Dfa3Aa34ab14a4B4c244c9"
             target="_blank"
@@ -100,6 +100,7 @@ function App() {
           >
             <i className="fas fa-magic"></i>
           </a>
+
           <a
             href="https://discord.com/invite/NGbzrjwzdD"
             target="_blank"
@@ -206,7 +207,7 @@ function App() {
           </div>
           <span className="coming-soon-badge">Coming Soon!</span>
         </section>
-        
+
         <section className="roadmap" id="roadmap">
           <h2 className="section-title">Archie Apes Roadmap</h2>
           <div className="roadmap-stages">
