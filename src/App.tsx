@@ -1,5 +1,5 @@
 import "./App.css";
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import Countdown from "./sections/Countdown";
 import About from "./sections/About";
 import AboutMe from "./sections/About-me";
