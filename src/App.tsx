@@ -1,6 +1,46 @@
 import "./App.css";
+import React, { useState, useEffect } from "react";
+import Countdown from "./sections/Countdown";
+import About from "./sections/About";
+import AboutMe from "./sections/About-me";
 
 function App() {
+
+    const [timeRemaining, setTimeRemaining] = useState<{ days: number; hours: number; minutes: number; seconds: number; } | null>({
+      days: 0,
+      hours: 0,
+      minutes: 0,
+      seconds: 0,
+    });
+
+    useEffect(() => {
+      const interval = setInterval(() => {
+        const targetDate = new Date("2025-01-01T00:00:00Z");
+        const currentDate = new Date();
+        const difference = targetDate.getTime() - currentDate.getTime();
+
+        if (difference <= 0) {
+          clearInterval(interval);
+          setTimeRemaining(null);
+          
+          return;
+        }
+
+        const days = Math.floor(difference / (1000 * 60 * 60 * 24));
+        const hours = Math.floor(
+          (difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+        );
+        const minutes = Math.floor(
+          (difference % (1000 * 60 * 60)) / (1000 * 60)
+        );
+        const seconds = Math.floor((difference % (1000 * 60)) / 1000);
+
+        setTimeRemaining({ days, hours, minutes, seconds });
+      }, 1000);
+
+      return () => clearInterval(interval);
+    }, []);
+
   return (
     <div className="app">
       {/* Hero Section */}
@@ -13,8 +53,8 @@ function App() {
           />
           <h1 className="hero-title">Archie Apes NFT Collection</h1>
           <p className="hero-description">
-            3333 unique NFTs on Ape Chain! Where innovation meets creativity,
-            and the community drives the vision.
+            A unique NFTs on Ape Chain! Where innovation meets creativity, and
+            the community drives the vision.
           </p>
           <a rel="noopener noreferrer" className="btn btn-primary">
             Minted Out
@@ -71,6 +111,18 @@ function App() {
           </a>
         </div>
       </header>
+
+      <section className="countdown">
+        <h2 className="section-title">
+          Holders of 15 Archie Apes will receive 1 Mutant Ape on January 1st,
+          2025
+        </h2>
+        {timeRemaining ? (
+          <Countdown timeRemaining={timeRemaining} />
+        ) : (
+          <p>The event has started!</p>
+        )}
+      </section>
 
       {/* Discord Ecosystem Section */}
       <section className="discord-ecosystem">
@@ -189,34 +241,8 @@ function App() {
         </section>
 
         {/* About Section */}
-        <section className="about">
-          <h2 className="section-title">About Archie Apes</h2>
-          <div className="about-content">
-            <p>
-              Archie Apes is a groundbreaking collection of 3333 NFTs on the Ape
-              Chain. With a vision to innovate and create, this project is for
-              the community and by the community. From Mutant Apes to upgraded
-              versions, each stage adds more value and excitement for holders.
-            </p>
-          </div>
-        </section>
-
-        <section className="about-me">
-          <h2>About Me</h2>
-          <img
-            src="https://i.ibb.co/s3sR9pn/photo-2024-11-25-06-50-13.jpg"
-            alt="Founder of Archie Apes"
-            className="founder-image"
-          />
-          <div className="about-founder">
-            <p className="founder-description">
-              Hi, I’m Danyelle, the developer of Archie Apes. I've been in the
-              crypto space for 3 years, working with various projects, and
-              always dreamed of launching my own. Now, I’m making it happen on
-              Ape Chain.
-            </p>
-          </div>
-        </section>
+        <About />
+        <AboutMe />
       </main>
 
       {/* Footer */}
