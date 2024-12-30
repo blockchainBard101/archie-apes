@@ -61,7 +61,7 @@ function App() {
             <i className="fas fa-magic"></i>
           </a>
           <a
-            href="https://discord.com/invite/8ARvc2ac"
+            href="https://discord.com/invite/NGbzrjwzdD"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Discord"
@@ -256,7 +256,7 @@ function App() {
           </a>
 
           <a
-            href="https://discord.com/invite/8ARvc2ac"
+            href="https://discord.com/invite/NGbzrjwzdD"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Discord"
