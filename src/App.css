@@ -101,8 +101,9 @@ a {
 
 .gallery-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive columns */
-  gap: 1.5rem; /* Space between items */
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1rem;
+  /* Space between items */
   margin-top: 1.5rem;
 }
 
@@ -135,11 +136,12 @@ a {
 .roadmap {
   padding: 4rem 2rem;
   background-color: #1f2937;
+  text-align: center;
 }
 
 .roadmap-stages {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 2rem;
 }
 
@@ -153,10 +155,19 @@ a {
 .roadmap-title {
   font-size: 1.5rem;
   margin-bottom: 0.5rem;
+  color: #f59e0b;
 }
 
-.roadmap-description {
-  line-height: 1.6;
+.roadmap-stage ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 1rem;
+  color: #e5e7eb;
+}
+
+.roadmap-stage ul li {
+  margin-bottom: 0.5rem;
 }
 
 /* About Section */
@@ -446,18 +457,57 @@ a {
 
 .countdown {
   text-align: center;
-  padding: 2rem;
+  padding: 2rem 1rem;
   background-color: #1f2937;
   border-radius: 8px;
+  margin: 1.5rem auto;
+  max-width: 800px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.countdown h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #f59e0b;
+}
+
+.countdown p {
+  font-size: 1.2rem;
+  color: #e5e7eb;
 }
 
 .countdown-timer {
   display: flex;
-  justify-content: center;
-  gap: 2rem;
+  justify-content: space-around;
+  gap: 1rem;
+  flex-wrap: wrap;
+  /* Wrap for smaller screens */
 }
 
+.roadmap {
+  padding: 2rem 1rem;
+}
+
+.roadmap-stage {
+  padding: 1rem;
+}
+
+.countdown h2 {
+  font-size: 1.5rem;
+}
+
+.gallery-grid {
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}
+
+.timer-block {
+  text-align: center;
+  padding: 0.5rem;
+  min-width: 70px;
+  background: #111827;
+  border-radius: 8px;
+  color: #f59e0b;
+}
 .time-box {
   background-color: #f59e0b;
   padding: 1rem 2rem;
@@ -505,4 +555,20 @@ a {
   .gallery-item-mutant {
     width: 90%;
   }
+
+    .countdown h2 {
+      font-size: 1.2rem;
+    }
+  
+    .countdown p {
+      font-size: 1rem;
+    }
+  
+    .roadmap-title {
+      font-size: 1.2rem;
+    }
+  
+    .gallery-grid {
+      grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+    }
 }

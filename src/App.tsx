@@ -57,7 +57,7 @@ function App() {
             the community drives the vision.
           </p>
           <a rel="noopener noreferrer" className="btn btn-primary">
-            Minted Out
+            Phase 1 Minted Out
           </a>
         </div>
 
@@ -65,7 +65,7 @@ function App() {
           <p className="banner-text">
             🚀{" "}
             <a href="#roadmap" className="banner-link">
-              Stage 2 Coming Soon!{" "}
+              Phase 2 Coming Soon!{" "}
             </a>{" "}
             Holders of 15 Archie Apes will receive 1 Mutant Ape. Stay tuned for
             updates! 🎉
@@ -206,33 +206,66 @@ function App() {
           </div>
           <span className="coming-soon-badge">Coming Soon!</span>
         </section>
-
-        {/* Roadmap Section */}
+        
         <section className="roadmap" id="roadmap">
-          <h2 className="section-title">Roadmap</h2>
+          <h2 className="section-title">Archie Apes Roadmap</h2>
           <div className="roadmap-stages">
             <div className="roadmap-stage">
-              <h3 className="roadmap-title">Stage 1</h3>
-              <p className="roadmap-description">
-                Mint sold out! All 3,333 Archie Apes have been sucured.
-              </p>
+              <h3 className="roadmap-title">Phase 1: Launch & Mint</h3>
+              <ul>
+                <li>Mint Day: Launch and mint 3,333 Archie Apes.</li>
+                <li>Target: Sold out in 21 days.</li>
+              </ul>
             </div>
             <div className="roadmap-stage">
-              <h3 className="roadmap-title">Stage 2</h3>
-              <p className="roadmap-description">
-                <span className="coming-soon-badge">Coming Soon!</span>
-                Holders of 15 Archie Apes will receive 1 Mutant Ape. Mutant Apes
-                will have a very limited supply of 333 with exclusive perks on
-                the horizon!
-              </p>
+              <h3 className="roadmap-title">Phase 2: Expansion</h3>
+              <ul>
+                <li>Mint 666 Mutant Archies to expand the collection.</li>
+                <li>Introduce unique traits and utility to the mutants.</li>
+                <li>
+                  Form strategic partnerships with other NFT projects and Web3
+                  ecosystems.
+                </li>
+                <li>
+                  Focus on collaborations that enhance the Archie Apes brand.
+                </li>
+              </ul>
             </div>
             <div className="roadmap-stage">
-              <h3 className="roadmap-title">Stage 3</h3>
-              <p className="roadmap-description">
-                Upgrade your Archie Apes and reduce supply to 1,111 by burning 3
-                Archie Apes to receive a new and improved one.
-              </p>
+              <h3 className="roadmap-title">Phase 3: Gaming & 3D Expansion</h3>
+              <ul>
+                <li>
+                  Partner with a gaming project to integrate Archie Apes into
+                  gameplay or build a custom Archie-themed game.
+                </li>
+                <li>
+                  Distribute 3D Archie Ape NFTs to existing holders as a reward.
+                </li>
+                <li>Airdrop 3D Mutant Ape NFTs to Mutant Archie holders.</li>
+              </ul>
             </div>
+            <div className="roadmap-stage">
+              <h3 className="roadmap-title">Phase 4: Community & Ecosystem</h3>
+              <ul>
+                <li>
+                  Launch Archie World, a virtual environment for open play and
+                  community interaction.
+                </li>
+                <li>
+                  Include features like events, mini-games, and community spaces
+                  to foster engagement.
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div className="optional-enhancements">
+            <h3 className="section-title">Optional Future Enhancements</h3>
+            <ul>
+              <li>Introduce staking rewards for Archie and Mutant holders.</li>
+              <li>Release merch tied to NFT ownership (claimables).</li>
+              <li>Host real-world or virtual community events for holders.</li>
+            </ul>
           </div>
           <p className="roadmap-note">
             <strong>The Community is Key!</strong> Together, we will shape the
