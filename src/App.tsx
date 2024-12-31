@@ -1,45 +1,45 @@
 import "./App.css";
-import { useState, useEffect } from "react";
-import Countdown from "./sections/Countdown";
+// import { useState, useEffect } from "react";
+// import Countdown from "./sections/Countdown";
 import About from "./sections/About";
 import AboutMe from "./sections/About-me";
 
 function App() {
 
-    const [timeRemaining, setTimeRemaining] = useState<{ days: number; hours: number; minutes: number; seconds: number; } | null>({
-      days: 0,
-      hours: 0,
-      minutes: 0,
-      seconds: 0,
-    });
+    // const [timeRemaining, setTimeRemaining] = useState<{ days: number; hours: number; minutes: number; seconds: number; } | null>({
+    //   days: 0,
+    //   hours: 0,
+    //   minutes: 0,
+    //   seconds: 0,
+    // });
 
-    useEffect(() => {
-      const interval = setInterval(() => {
-        const targetDate = new Date("2025-01-01T00:00:00Z");
-        const currentDate = new Date();
-        const difference = targetDate.getTime() - currentDate.getTime();
+    // useEffect(() => {
+    //   const interval = setInterval(() => {
+    //     const targetDate = new Date("2025-01-01T00:00:00Z");
+    //     const currentDate = new Date();
+    //     const difference = targetDate.getTime() - currentDate.getTime();
 
-        if (difference <= 0) {
-          clearInterval(interval);
-          setTimeRemaining(null);
+    //     if (difference <= 0) {
+    //       clearInterval(interval);
+    //       setTimeRemaining(null);
           
-          return;
-        }
+    //       return;
+    //     }
 
-        const days = Math.floor(difference / (1000 * 60 * 60 * 24));
-        const hours = Math.floor(
-          (difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
-        );
-        const minutes = Math.floor(
-          (difference % (1000 * 60 * 60)) / (1000 * 60)
-        );
-        const seconds = Math.floor((difference % (1000 * 60)) / 1000);
+    //     const days = Math.floor(difference / (1000 * 60 * 60 * 24));
+    //     const hours = Math.floor(
+    //       (difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+    //     );
+    //     const minutes = Math.floor(
+    //       (difference % (1000 * 60 * 60)) / (1000 * 60)
+    //     );
+    //     const seconds = Math.floor((difference % (1000 * 60)) / 1000);
 
-        setTimeRemaining({ days, hours, minutes, seconds });
-      }, 1000);
+    //     setTimeRemaining({ days, hours, minutes, seconds });
+    //   }, 1000);
 
-      return () => clearInterval(interval);
-    }, []);
+    //   return () => clearInterval(interval);
+    // }, []);
 
   return (
     <div className="app">
@@ -113,7 +113,7 @@ function App() {
         </div>
       </header>
 
-      <section className="countdown">
+      {/* <section className="countdown">
         <h2 className="section-title">
           Holders of 15 Archie Apes will receive 1 Mutant Ape on January 1st,
           2025
@@ -123,7 +123,7 @@ function App() {
         ) : (
           <p>The event has started!</p>
         )}
-      </section>
+      </section> */}
 
       <section className="video-section">
         <h2 className="section-title">🎥 Event Highlights</h2>
