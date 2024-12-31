@@ -126,26 +126,13 @@ function App() {
       </section>
 
       <section className="video-section">
-        <div
-          style={{
-            position: "relative",
-            width: "100%",
-            height: "0",
-            paddingBottom: "56.25%", // 16:9 aspect ratio
-          }}
-        >
+        <h2 className="section-title">🎥 Event Highlights</h2>
+        <div className="video-container">
           <iframe
-            allow="fullscreen;autoplay"
+            allow="fullscreen; autoplay"
             allowFullScreen
             src="https://streamable.com/e/bfm80q?autoplay=1"
-            style={{
-              border: "none",
-              width: "100%",
-              height: "100%",
-              position: "absolute",
-              top: "0",
-              left: "0",
-            }}
+            className="responsive-iframe"
           ></iframe>
         </div>
       </section>
