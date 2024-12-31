@@ -222,6 +222,17 @@ body {
   margin-top: 1rem;
 }
 
+.video-section {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.video-section .section-title {
+  color: #fbbf24;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
 /* Enhanced Responsive Design */
 @media (max-width: 768px) {
   .hero-title {
