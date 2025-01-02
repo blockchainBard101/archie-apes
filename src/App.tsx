@@ -56,8 +56,19 @@ function App() {
             A unique NFTs on Ape Chain! Where innovation meets creativity, and
             the community drives the vision.
           </p>
-          <a rel="noopener noreferrer" className="btn btn-primary">
-            Phase 1 Minted Out
+          <a
+            href="https://magiceden.io/collections/apechain/0x093414B375ecE9Ef24Dfa3Aa34ab14a4B4c244c9"
+            rel="noopener noreferrer"
+            className="btn btn-primary"
+          >
+            Archies
+          </a>
+          <a
+            href="https://magiceden.io/collections/apechain/0x5e16142030f0daeaa2ae4c7a6aa06b14391b7bf2"
+            rel="noopener noreferrer"
+            className="btn btn-primary-mutant"
+          >
+            Mutants
           </a>
         </div>
 
@@ -65,10 +76,9 @@ function App() {
           <p className="banner-text">
             🚀{" "}
             <a href="#roadmap" className="banner-link">
-              Phase 2 Coming Soon!{" "}
+              Phase 2 SOLD OUT! 🎉{" "}
             </a>{" "}
-            Holders of 15 Archie Apes will receive 1 Mutant Ape. Stay tuned for
-            updates! 🎉
+            Mutant Archie Apes Have Officially Minted Out! 🎉
           </p>
         </div>
 
@@ -125,16 +135,23 @@ function App() {
         )}
       </section> */}
 
-      <section className="video-section">
-        <h2 className="section-title">🎥 Event Highlights</h2>
-        <div className="video-container">
-          <iframe
-            allow="fullscreen; autoplay"
-            allowFullScreen
-            src="https://streamable.com/e/bfm80q?autoplay=1"
-            className="responsive-iframe"
-          ></iframe>
-        </div>
+      {/* Mint Announcement Section */}
+      <section className="mint-announcement">
+        <h2 className="section-title">
+          🎉 SOLD OUT! Mutant Archie Apes Have Officially Minted Out! 🎉
+        </h2>
+        <p className="announcement">
+          A huge THANK YOU to our incredible community for making this happen!
+          🙌 The journey has just begun, and we couldn’t have done it without
+          your support.
+        </p>
+        <p className="next-steps">
+          Stay tuned for what’s next—big things are on the horizon for the
+          Mutant Archie Apes. Welcome to the family, everyone who minted! 🐵💥
+        </p>
+        <p className="call-to-action">
+          Let’s take this to the next level together. 🚀
+        </p>
       </section>
 
       {/* Discord Ecosystem Section */}
@@ -185,7 +202,16 @@ function App() {
           />
 
           <h2 className="section-title">Explore the Collection</h2>
-          <h3 className="section-title">Archie Apes</h3>
+          <h3 className="section-title">
+            <a
+              href="https://magiceden.io/collections/apechain/0x093414B375ecE9Ef24Dfa3Aa34ab14a4B4c244c9"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="custom-link"
+            >
+              Archie Apes
+            </a>
+          </h3>
           <div className="gallery-grid">
             <img
               src="https://bafybeibsduts67zem6r4qxcj3mmpukorsizlocrlv6b7cp7x3fdehxyzce.ipfs.w3s.link/?n2m=file.webp"
@@ -209,15 +235,39 @@ function App() {
             />
           </div>
 
-          <h2 className="section-title">Mutant Archie Apes</h2>
+          <h3 className="section-title">
+            <a
+              href="https://magiceden.io/collections/apechain/0x5e16142030f0daeaa2ae4c7a6aa06b14391b7bf2"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="custom-link"
+            >
+              Mutant Archie Apes
+            </a>
+          </h3>
           <div className="gallery-grid">
             <img
               src="https://i.ibb.co/m6QmRP1/photo-2024-12-02-15-38-17.jpg"
               alt="NFT 1"
-              className="gallery-item-mutant"
+              className="gallery-item"
+            />
+            <img
+              src="https://img-cdn.magiceden.dev/rs:fill:800:0:0/plain/https%3A%2F%2Fimg.reservoir.tools%2Fimages%2Fv2%2Fapechain%2Fi9YO%252F4yHXUdJsWcTqhqvf7SQW%252BTkdzCeTAyik%252BHdzUGuN2HwVjQrQTBmzOJ80dsTaB9Nz%252BRZ24QcauiJPkLw28oFM2WgMySHlbvrHRW%252BaB5K%252BLpZnWcBZochQUQvO%252FIY.webp"
+              alt="NFT 2"
+              className="gallery-item"
+            />
+            <img
+              src="https://img-cdn.magiceden.dev/rs:fill:800:0:0/plain/https%3A%2F%2Fimg.reservoir.tools%2Fimages%2Fv2%2Fapechain%2Fi9YO%252F4yHXUdJsWcTqhqvf7SQW%252BTkdzCeTAyik%252BHdzUGuN2HwVjQrQTBmzOJ80dsTaB9Nz%252BRZ24QcauiJPkLw28oFM2WgMySHlbvrHRW%252BaB5mTRC0E0pTugZ%252BNZZ%252BVb3D.webp"
+              alt="NFT 3"
+              className="gallery-item"
+            />
+            <img
+              src="https://img-cdn.magiceden.dev/rs:fill:800:0:0/plain/https%3A%2F%2Fimg.reservoir.tools%2Fimages%2Fv2%2Fapechain%2Fi9YO%252F4yHXUdJsWcTqhqvf7SQW%252BTkdzCeTAyik%252BHdzUGuN2HwVjQrQTBmzOJ80dsTaB9Nz%252BRZ24QcauiJPkLw28oFM2WgMySHlbvrHRW%252BaB6rgPjUMLc7axPTW9%252FsddUC.webp"
+              alt="NFT 4"
+              className="gallery-item"
             />
           </div>
-          <span className="coming-soon-badge">Coming Soon!</span>
+          {/* <span className="coming-soon-badge">Coming Soon!</span> */}
         </section>
 
         <section className="roadmap" id="roadmap">
