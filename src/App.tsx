@@ -1,5 +1,4 @@
 import "./App.css";
-// import { useState, useEffect } from "react";
 // import Countdown from "./sections/Countdown";
 import About from "./sections/About";
 import AboutMe from "./sections/About-me";
@@ -152,6 +151,15 @@ function App() {
         <p className="call-to-action">
           Let’s take this to the next level together. 🚀
         </p>
+      </section>
+
+      <section className="twitter-post">
+        <h2 className="section-title">Featured X Post</h2>
+        <blockquote className="twitter-tweet" data-lang="en">
+          <a href="https://x.com/DanYellsNFTs_/status/1874958251483406623">
+            View this post on X
+          </a>
+        </blockquote>
       </section>
 
       {/* Discord Ecosystem Section */}
@@ -387,7 +395,7 @@ function App() {
             <i className="fab fa-discord"></i>
           </a>
         </div>
-        <p>© 2024 Archie Apes - All Rights Reserved.</p>
+        <p>© 2025 Archie Apes - All Rights Reserved.</p>
       </footer>
     </div>
   );
