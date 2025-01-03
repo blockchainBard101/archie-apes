@@ -153,15 +153,6 @@ function App() {
         </p>
       </section>
 
-      <section className="twitter-post">
-        <h2 className="section-title">Featured X Post</h2>
-        <blockquote className="twitter-tweet" data-lang="en">
-          <a href="https://x.com/DanYellsNFTs_/status/1874958251483406623">
-            View this post on X
-          </a>
-        </blockquote>
-      </section>
-
       {/* Discord Ecosystem Section */}
       <section className="discord-ecosystem">
         <h2 className="section-title">🎉 Attention Archie Ape Holders! 🦍💎</h2>
