@@ -213,7 +213,7 @@ function App() {
           </h3>
           <div className="gallery-grid">
             <img
-              src="https://bafybeibsduts67zem6r4qxcj3mmpukorsizlocrlv6b7cp7x3fdehxyzce.ipfs.w3s.link/?n2m=file.webp"
+              src="https://i.ibb.co/df36Y3S/photo-2025-01-09-02-41-30.jpg"
               alt="NFT 1"
               className="gallery-item"
             />
