@@ -1,5 +1,5 @@
 // src/sections/NetworkInstructions.js
-import React from "react";
+// import React from "react";
 import "./NetworkInstructions.css"; // Ensure the CSS file is updated accordingly.
 
 function NetworkInstructions() {
