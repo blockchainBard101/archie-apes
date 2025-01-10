@@ -1,0 +1,77 @@
+.network-instructions {
+    max-width: 400px;
+    /* Reduced width for a smaller box */
+    margin: 2rem auto;
+    padding: 1rem;
+    background-color: #1f2937;
+    color: #f3f4f6;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-size: 0.9rem;
+    /* Slightly smaller text */
+}
+
+.network-instructions h3 {
+    font-size: 1.2rem;
+    /* Reduced font size for the title */
+    margin-bottom: 1rem;
+    color: #fbbf24;
+}
+
+.network-instructions ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color: #d1d5db;
+}
+
+.network-instructions ul li {
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    background-color: #374151;
+    border-radius: 5px;
+    font-size: 0.85rem;
+    /* Smaller font for list items */
+}
+
+.network-instructions ul li span {
+    display: inline-block;
+    font-weight: bold;
+    color: #fbbf24;
+}
+
+.network-instructions a {
+    display: inline-block;
+    margin-top: 1rem;
+    text-decoration: none;
+    color: #ecc94b;
+    font-weight: bold;
+    font-size: 0.9rem;
+    transition: color 0.3s ease;
+}
+
+.network-instructions a:hover {
+    color: #f6ad55;
+}
+
+@media (max-width: 768px) {
+    .network-instructions {
+        max-width: 90%;
+        /* Adjusted for smaller screens */
+        padding: 0.8rem;
+        font-size: 0.85rem;
+        /* Smaller font size for mobile */
+    }
+
+    .network-instructions h3 {
+        font-size: 1rem;
+        /* Adjusted title font size for mobile */
+    }
+
+    .network-instructions ul li {
+        padding: 0.4rem;
+        font-size: 0.8rem;
+        /* Reduced font size for list items */
+    }
+}

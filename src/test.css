@@ -1,0 +1,151 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #e5e7eb;
+    /* Slightly lighter text color for readability */
+    background-color: #1a202c;
+    /* Slightly lighter dark background */
+    line-height: 1.6;
+}
+
+/* Container */
+.app {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 3rem 1rem;
+    background: linear-gradient(135deg, #2d3748, #1a202c);
+    /* Softer gradient */
+    border-radius: 8px;
+}
+
+.hero-logo {
+    width: 100px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+.hero-title {
+    font-size: 1.8rem;
+    margin: 0.5rem 0;
+    color: #ecc94b;
+    /* Softer yellow instead of sharp gold */
+}
+
+.hero-description {
+    font-size: 0.9rem;
+    max-width: 90%;
+    margin: 0.5rem auto;
+    line-height: 1.4;
+    color: #cbd5e0;
+    /* Softer grey for better contrast */
+}
+
+.btn-primary {
+    display: inline-block;
+    padding: 0.6rem 1.2rem;
+    font-size: 0.9rem;
+    color: #1a202c;
+    background: #f6ad55;
+    /* Muted orange */
+    border-radius: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+.btn-primary:hover {
+    background: #edf2f7;
+    /* Soft white */
+    transform: translateY(-2px);
+    color: #1a202c;
+}
+
+.btn-primary-mutant {
+    display: inline-block;
+    padding: 0.6rem 1.2rem;
+    font-size: 0.9rem;
+    color: #1a202c;
+    background: #ecc94b;
+    /* Muted yellow */
+    border-radius: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+.btn-primary-mutant:hover {
+    background: #edf2f7;
+    transform: translateY(-2px);
+}
+
+/* Countdown Section */
+.countdown h2 {
+    font-size: 1.6rem;
+    margin-bottom: 0.8rem;
+    color: #ecc94b;
+    /* Consistent with hero title */
+}
+
+.countdown p {
+    font-size: 1rem;
+    color: #a0aec0;
+    /* Softer grey */
+}
+
+.time-box {
+    background: #2d3748;
+    /* Darker background for consistency */
+    border: 1px solid #4a5568;
+    color: #e2e8f0;
+    /* Soft grey text for numbers */
+}
+
+/* Gallery Section */
+.gallery {
+    background: #2d3748;
+    /* Consistent muted dark color */
+}
+
+/* Footer Section */
+.footer h3 {
+    color: #ecc94b;
+}
+
+.footer a {
+    color: #f6ad55;
+    /* Muted orange link */
+}
+
+.footer a:hover {
+    color: #fbd38d;
+    /* Lighter orange */
+}
+
+/* Mint Announcement */
+.mint-announcement {
+    background-color: #2d3748;
+    border: 2px solid #ecc94b;
+}
+
+.mint-announcement .section-title {
+    color: #f6ad55;
+    /* Muted orange for consistency */
+}

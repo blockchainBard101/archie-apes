@@ -1,4 +1,4 @@
-/* General Reset */
+General Reset
 * {
   margin: 0;
   padding: 0;
@@ -38,7 +38,7 @@ body {
 .hero-title {
   font-size: 1.8rem;
   margin: 0.5rem 0;
-  color: #fbbf24;
+  color: #ecc94b;
 }
 
 .hero-description {
@@ -48,12 +48,12 @@ body {
   line-height: 1.4;
 }
 
-.btn-primary {
+/* .btn-primary {
   display: inline-block;
   padding: 0.6rem 1.2rem;
   font-size: 0.9rem;
-  color: #ffffff;
-  background: #0154FA;
+  color: #1a202c;
+  background: #f6ad55;
   border-radius: 20px;
   text-transform: uppercase;
   font-weight: bold;
@@ -73,7 +73,7 @@ body {
   padding: 0.6rem 1.2rem;
   font-size: 0.9rem;
   color: #111827;
-  background: #2ecc71;
+  background: #ecc94b;
   border-radius: 20px;
   text-transform: uppercase;
   font-weight: bold;
@@ -85,6 +85,35 @@ body {
 .btn-primary-mutant:hover {
   background: #ffffff;
   transform: translateY(-2px);
+} */
+
+.cta-buttons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.btn-primary,
+.btn-primary-mutant {
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+}
+
+.btn-primary {
+  background-color: #007bff;
+}
+
+.btn-primary-mutant {
+  background-color: #28a745;
+}
+
+.btn-primary:hover,
+.btn-primary-mutant:hover {
+  opacity: 0.9;
 }
 
 /* Countdown Section */
@@ -261,7 +290,7 @@ body {
 
 .mint-announcement {
   background-color: #1f2937;
-  border: 2px solid #f5c518;
+  border: 2px solid #ecc94b;
   border-radius: 12px;
   padding: 20px;
   margin: 20px auto;
@@ -271,7 +300,7 @@ body {
 }
 
 .mint-announcement .section-title {
-  color: #d35400;
+  color: #f6ad55;
   font-size: 1.8rem;
   font-weight: bold;
   margin-bottom: 10px;
@@ -292,24 +321,25 @@ body {
 .mint-announcement .call-to-action {
   font-size: 1.1rem;
   font-weight: bold;
-  color: #2ecc71;
+  color: #fbbf24;
 }
 
 .mint-announcement .call-to-action:hover {
-  color: #27ae60;
+  color: #fbbf24;
   text-decoration: underline;
   transition: color 0.3s ease;
 }
 
 .banner-link{
   text-decoration: none;
-  color: #d97706;
+  color: #f0edea;
   transition: color 0.3s ease;
 }
 
 .banner-text{
-  color: #d97706;
+  color: #f0edea;
 }
+
 
 
 /* Enhanced Responsive Design */

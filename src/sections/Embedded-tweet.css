@@ -1,0 +1,20 @@
+.twitter-embed-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    /* Adjust margin if needed */
+}
+
+.twitter-embed-container blockquote.twitter-tweet {
+    max-width: 300px;
+    /* Further reduce the width */
+    width: 100%;
+    transform: scale(0.7);
+    /* Scale down to 70% of original size */
+    transform-origin: center;
+}
+
+.twitter-embed-container script {
+    display: none;
+}

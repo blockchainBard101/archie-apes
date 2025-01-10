@@ -2,6 +2,7 @@ import "./App.css";
 // import Countdown from "./sections/Countdown";
 import About from "./sections/About";
 import AboutMe from "./sections/About-me";
+import NetworkInstructions from "./sections/NetworkInstructions";
 
 function App() {
 
@@ -46,7 +47,12 @@ function App() {
       <header className="hero">
         <div className="hero-content">
           <img
-            src="https://pbs.twimg.com/profile_images/1851717473839575040/UmmETYLp_400x400.jpg"
+            src="https://i.ibb.co/df36Y3S/photo-2025-01-09-02-41-30.jpg"
+            alt="Ape Chain Logo"
+            className="hero-logo"
+          />
+          <img
+            src="https://i.ibb.co/HPJXH8t/photo-2025-01-09-02-41-35.jpg"
             alt="Ape Chain Logo"
             className="hero-logo"
           />
@@ -55,7 +61,23 @@ function App() {
             A unique NFTs on Ape Chain! Where innovation meets creativity, and
             the community drives the vision.
           </p>
-          <a
+          <div className="cta-buttons">
+            <a
+              href="https://magiceden.io/collections/apechain/0x093414B375ecE9Ef24Dfa3Aa34ab14a4B4c244c9"
+              rel="noopener noreferrer"
+              className="btn btn-primary"
+            >
+              Archies
+            </a>
+            <a
+              href="https://magiceden.io/collections/apechain/0x5e16142030f0daeaa2ae4c7a6aa06b14391b7bf2"
+              rel="noopener noreferrer"
+              className="btn btn-primary-mutant"
+            >
+              Mutants
+            </a>
+          </div>
+          {/* <a
             href="https://magiceden.io/collections/apechain/0x093414B375ecE9Ef24Dfa3Aa34ab14a4B4c244c9"
             rel="noopener noreferrer"
             className="btn btn-primary"
@@ -68,17 +90,7 @@ function App() {
             className="btn btn-primary-mutant"
           >
             Mutants
-          </a>
-        </div>
-
-        <div className="top-banner">
-          <p className="banner-text">
-            🚀{" "}
-            <a href="#roadmap" className="banner-link">
-              Phase 2 SOLD OUT! 🎉{" "}
-            </a>{" "}
-            Mutant Archie Apes Have Officially Minted Out! 🎉
-          </p>
+          </a> */}
         </div>
 
         <div className="social-links">
@@ -122,18 +134,6 @@ function App() {
         </div>
       </header>
 
-      {/* <section className="countdown">
-        <h2 className="section-title">
-          Holders of 15 Archie Apes will receive 1 Mutant Ape on January 1st,
-          2025
-        </h2>
-        {timeRemaining ? (
-          <Countdown timeRemaining={timeRemaining} />
-        ) : (
-          <p>The event has started!</p>
-        )}
-      </section> */}
-
       {/* Mint Announcement Section */}
       <section className="mint-announcement">
         <h2 className="section-title">
@@ -152,7 +152,8 @@ function App() {
           Let’s take this to the next level together. 🚀
         </p>
       </section>
-
+      <NetworkInstructions />
+      {/* <EmbeddedTweet /> */}
       {/* Discord Ecosystem Section */}
       <section className="discord-ecosystem">
         <h2 className="section-title">🎉 Attention Archie Ape Holders! 🦍💎</h2>
