@@ -1,77 +1,89 @@
 .network-instructions {
-    max-width: 400px;
-    /* Reduced width for a smaller box */
+    display: flex;
+    flex-direction: row;
+    /* Arrange items horizontally */
+    justify-content: space-between;
+    gap: 1rem;
+    /* Add space between the sections */
+    max-width: 1000px;
+    /* Adjust the width as needed */
     margin: 2rem auto;
     padding: 1rem;
     background-color: #1f2937;
     color: #f3f4f6;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    text-align: center;
     font-size: 0.9rem;
-    /* Slightly smaller text */
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.4;
+}
+
+.network-instructions h2 {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+    color: #ecc94b;
 }
 
 .network-instructions h3 {
     font-size: 1.2rem;
-    /* Reduced font size for the title */
     margin-bottom: 1rem;
     color: #fbbf24;
 }
 
-.network-instructions ul {
+.network-instructions ul,
+.additional-instructions ul {
     list-style: none;
     padding: 0;
     margin: 0;
-    color: #d1d5db;
 }
 
-.network-instructions ul li {
+.network-instructions ul li,
+.additional-instructions ul li {
     margin: 0.5rem 0;
     padding: 0.5rem;
     background-color: #374151;
     border-radius: 5px;
     font-size: 0.85rem;
-    /* Smaller font for list items */
 }
 
-.network-instructions ul li span {
-    display: inline-block;
+.network-instructions ul li span,
+.additional-instructions ul li span {
     font-weight: bold;
     color: #fbbf24;
 }
 
-.network-instructions a {
-    display: inline-block;
-    margin-top: 1rem;
+.network-instructions a,
+.additional-instructions a {
     text-decoration: none;
     color: #ecc94b;
     font-weight: bold;
-    font-size: 0.9rem;
     transition: color 0.3s ease;
 }
 
-.network-instructions a:hover {
+.network-instructions a:hover,
+.additional-instructions a:hover {
     color: #f6ad55;
 }
 
+.additional-instructions {
+    flex: 1;
+    /* Allow sections to share space equally */
+    padding: 1rem;
+    background-color: #2d3748;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive Design */
 @media (max-width: 768px) {
     .network-instructions {
-        max-width: 90%;
-        /* Adjusted for smaller screens */
-        padding: 0.8rem;
-        font-size: 0.85rem;
-        /* Smaller font size for mobile */
+        flex-direction: column;
+        /* Stack sections vertically on smaller screens */
+        gap: 1rem;
     }
 
+    .network-instructions h2,
     .network-instructions h3 {
-        font-size: 1rem;
-        /* Adjusted title font size for mobile */
-    }
-
-    .network-instructions ul li {
-        padding: 0.4rem;
-        font-size: 0.8rem;
-        /* Reduced font size for list items */
+        font-size: 1.4rem;
     }
 }
