@@ -13,6 +13,12 @@ const AboutMe = () => (
         launching my own. Now, I’m making it happen on Ape Chain.
       </p>
     </div>
+    <img
+      src="https://i.ibb.co/rdMsS4J/photo-2025-01-15-02-03-09.jpg"
+      alt="Founder of Archie Apes"
+      className="founder-image"
+    />
+    <p className="founder-description"> @theblondebroker @danyellsnfts_</p>
   </section>
 );
 
