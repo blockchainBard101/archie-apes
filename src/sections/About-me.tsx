@@ -10,7 +10,7 @@ const AboutMe = () => (
       <p className="founder-description">
         Hi, I’m Danyelle, the developer of{" "}
         <a
-          href="https://x.com/DanYellsNFTs_"
+          href="https://x.com/archieapes_"
           target="_blank"
           rel="noopener noreferrer"
         >
