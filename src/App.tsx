@@ -166,8 +166,9 @@ function App() {
         </p>
         <ul className="ecosystem-features">
           <li>
-            ✅ <strong>NFT Staking</strong> – Stake your Archie Apes to earn
-            points and unlock exclusive perks!
+            ✅ <strong>NFT Soft Staking</strong> – Soft staking in the discord
+            for both your Mutant Archie Apes & OG Archie Apes to earn points &
+            unlock exclusive perks.
           </li>
           <li>
             ✅ <strong>Twitter Raids</strong> – Join the raids, amplify our
@@ -181,8 +182,8 @@ function App() {
         <p className="exclusive-rewards">
           🎁 <strong>Exclusive Holder Rewards:</strong> To kick things off,{" "}
           <strong>
-            all Archie Ape holders earn 10 points for every 5 Archie Apes they
-            hold.
+            all Archie Ape holders earn 10 points for every 5 Archie Apes and
+            mutant Archie apes they hold.
           </strong>{" "}
           The more you hold, the more you earn—it's that simple!
         </p>
@@ -283,14 +284,17 @@ function App() {
             <div className="roadmap-stage">
               <h3 className="roadmap-title">Phase 2: Expansion</h3>
               <ul>
-                <li>Mint 666 Mutant Archies to expand the collection.</li>
-                <li>Introduce unique traits and utility to the mutants.</li>
+                <li>
+                  Launched 666 Mutant Archies to expand the collection on
+                  January 1st 2025 and minted out in 16 hours.
+                </li>
+                <li>Introduced unique traits and utility to the mutants.</li>
                 <li>
                   Form strategic partnerships with other NFT projects and Web3
                   ecosystems.
                 </li>
                 <li>
-                  Focus on collaborations that enhance the Archie Apes brand.
+                  Focused on collaborations that enhance the Archie Apes brand.
                 </li>
               </ul>
             </div>
@@ -325,7 +329,9 @@ function App() {
           <div className="optional-enhancements">
             <h3 className="section-title">Optional Future Enhancements</h3>
             <ul>
-              <li>Introduce staking rewards for Archie and Mutant holders.</li>
+              <li>
+                Introduce Soft staking rewards for Archie and Mutant holders.
+              </li>
               <li>Release merch tied to NFT ownership (claimables).</li>
               <li>Host real-world or virtual community events for holders.</li>
             </ul>
