@@ -6,6 +6,8 @@ import AboutMe from "./sections/About-me";
 import NetworkInstructions from "./sections/NetworkInstructions";
 import MintAnnouncement from './sections/MintAnnouncement ';
 import Discord from "./sections/Discord";
+import Threed1 from "./assets/Threed1.jpg";
+import Threed2 from "./assets/Threed2.jpg";
 
 function App() {
   return (
@@ -91,12 +93,12 @@ function App() {
         <h1 className="coming-soon-text">3D Avatars Coming Soon</h1>
         <div className="coming-soon-images">
           <img
-            src="https://i.ibb.co/RSxnx2s/photo-2025-01-15-02-37-26.jpg"
+            src={Threed2}
             alt="Coming Soon Image 1"
             className="coming-soon-image"
           />
           <img
-            src="https://i.ibb.co/ZKnBM8n/photo-2025-01-15-02-37-35.jpg"
+            src={Threed1}
             alt="Coming Soon Image 2"
             className="coming-soon-image"
           />

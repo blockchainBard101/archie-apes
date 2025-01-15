@@ -1,5 +1,6 @@
 import React from "react";
 import "./game.css";
+import gm1 from "./../assets/gm1.jpg";
 
 const DemoSection: React.FC = () => {
   return (
@@ -14,7 +15,7 @@ const DemoSection: React.FC = () => {
       </p>
       <img
         className="demo-image"
-        src="https://i.ibb.co/QHgVFBS/photo-2025-01-15-03-07-44.jpg"
+        src={gm1}
         alt="OG Archie Ape Base Character"
       />
       <p className="demo-description">
