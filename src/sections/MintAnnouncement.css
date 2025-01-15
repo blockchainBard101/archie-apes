@@ -55,6 +55,10 @@
     .btn-primary {
         width: 100%;
     }
+
+    .coming-soon-images img {
+        max-width: 120px;
+    }
 }
 
 @media (max-width: 480px) {
@@ -72,5 +76,9 @@
 
     .hero-description {
         font-size: 1rem;
+    }
+
+    .coming-soon-images img {
+        max-width: 100px;
     }
 }
