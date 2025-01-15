@@ -1,0 +1,117 @@
+.discord-ecosystem {
+    background-color: #1f2937;
+    padding: 3rem 2rem;
+    border-radius: 8px;
+    margin: 2rem auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+    max-width: 800px;
+}
+
+.discord-ecosystem .section-title {
+    font-size: 2rem;
+    color: #f59e0b;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.discord-ecosystem .announcement {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #f3f4f6;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.discord-ecosystem .ecosystem-features {
+    list-style-type: none;
+    padding: 0;
+    margin: 1.5rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.discord-ecosystem .ecosystem-features li {
+    background-color: #111827;
+    padding: 1rem;
+    border-radius: 6px;
+    color: #d1d5db;
+    font-size: 1rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+}
+
+.discord-ecosystem .ecosystem-features li strong {
+    color: #f59e0b;
+    margin-right: 0.5rem;
+}
+
+.discord-ecosystem .exclusive-rewards {
+    background-color: #111827;
+    color: #d1d5db;
+    padding: 1.5rem;
+    border-radius: 6px;
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-top: 2rem;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.discord-ecosystem .cta {
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    color: #f59e0b;
+    margin-top: 1.5rem;
+}
+
+@media (max-width: 768px) {
+    .discord-ecosystem {
+        padding: 2rem 1rem;
+        margin: 1rem auto;
+    }
+
+    .discord-ecosystem .section-title {
+        font-size: 1.75rem;
+    }
+
+    .discord-ecosystem .announcement,
+    .discord-ecosystem .ecosystem-features li,
+    .discord-ecosystem .exclusive-rewards {
+        font-size: 1rem;
+    }
+
+    .discord-ecosystem .cta {
+        font-size: 1rem;
+    }
+
+    .discord-ecosystem .ecosystem-features {
+        gap: 0.75rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .discord-ecosystem {
+        padding: 1.5rem 1rem;
+    }
+
+    .discord-ecosystem .section-title {
+        font-size: 1.5rem;
+    }
+
+    .discord-ecosystem .announcement,
+    .discord-ecosystem .ecosystem-features li,
+    .discord-ecosystem .exclusive-rewards {
+        font-size: 0.9rem;
+    }
+
+    .discord-ecosystem .cta {
+        font-size: 0.9rem;
+    }
+
+    .discord-ecosystem .ecosystem-features {
+        gap: 0.5rem;
+    }
+}
