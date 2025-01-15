@@ -1,46 +1,11 @@
 import "./App.css";
+import DemoSection from "./sections/game";
 // import Countdown from "./sections/Countdown";
 import About from "./sections/About";
 import AboutMe from "./sections/About-me";
 import NetworkInstructions from "./sections/NetworkInstructions";
 
 function App() {
-
-    // const [timeRemaining, setTimeRemaining] = useState<{ days: number; hours: number; minutes: number; seconds: number; } | null>({
-    //   days: 0,
-    //   hours: 0,
-    //   minutes: 0,
-    //   seconds: 0,
-    // });
-
-    // useEffect(() => {
-    //   const interval = setInterval(() => {
-    //     const targetDate = new Date("2025-01-01T00:00:00Z");
-    //     const currentDate = new Date();
-    //     const difference = targetDate.getTime() - currentDate.getTime();
-
-    //     if (difference <= 0) {
-    //       clearInterval(interval);
-    //       setTimeRemaining(null);
-          
-    //       return;
-    //     }
-
-    //     const days = Math.floor(difference / (1000 * 60 * 60 * 24));
-    //     const hours = Math.floor(
-    //       (difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
-    //     );
-    //     const minutes = Math.floor(
-    //       (difference % (1000 * 60 * 60)) / (1000 * 60)
-    //     );
-    //     const seconds = Math.floor((difference % (1000 * 60)) / 1000);
-
-    //     setTimeRemaining({ days, hours, minutes, seconds });
-    //   }, 1000);
-
-    //   return () => clearInterval(interval);
-    // }, []);
-
   return (
     <div className="app">
       {/* Hero Section */}
@@ -77,20 +42,6 @@ function App() {
               Mutants
             </a>
           </div>
-          {/* <a
-            href="https://magiceden.io/collections/apechain/0x093414B375ecE9Ef24Dfa3Aa34ab14a4B4c244c9"
-            rel="noopener noreferrer"
-            className="btn btn-primary"
-          >
-            Archies
-          </a>
-          <a
-            href="https://magiceden.io/collections/apechain/0x5e16142030f0daeaa2ae4c7a6aa06b14391b7bf2"
-            rel="noopener noreferrer"
-            className="btn btn-primary-mutant"
-          >
-            Mutants
-          </a> */}
         </div>
 
         <div className="social-links">
@@ -133,7 +84,24 @@ function App() {
           </a>
         </div>
       </header>
+      {/* Coming Soon Section */}
+      <section className="coming-soon">
+        <h1 className="coming-soon-text">3D Avatars Coming Soon</h1>
+        <div className="coming-soon-images">
+          <img
+            src="https://i.ibb.co/RSxnx2s/photo-2025-01-15-02-37-26.jpg"
+            alt="Coming Soon Image 1"
+            className="coming-soon-image"
+          />
+          <img
+            src="https://i.ibb.co/ZKnBM8n/photo-2025-01-15-02-37-35.jpg"
+            alt="Coming Soon Image 2"
+            className="coming-soon-image"
+          />
+        </div>
+      </section>
 
+      <DemoSection />
       {/* Mint Announcement Section */}
       <section className="mint-announcement">
         <h2 className="section-title">
@@ -152,7 +120,7 @@ function App() {
           Let’s take this to the next level together. 🚀
         </p>
       </section>
-      <NetworkInstructions />
+
       {/* <EmbeddedTweet /> */}
       {/* Discord Ecosystem Section */}
       <section className="discord-ecosystem">
@@ -192,6 +160,8 @@ function App() {
           to the top! 💪
         </p>
       </section>
+
+      <NetworkInstructions />
 
       {/* Gallery Section */}
       <main>
