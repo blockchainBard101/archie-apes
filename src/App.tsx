@@ -4,6 +4,7 @@ import DemoSection from "./sections/game";
 import About from "./sections/About";
 import AboutMe from "./sections/About-me";
 import NetworkInstructions from "./sections/NetworkInstructions";
+import MintAnnouncement from './sections/MintAnnouncement ';
 
 function App() {
   return (
@@ -102,8 +103,9 @@ function App() {
       </section>
 
       <DemoSection />
+      <MintAnnouncement />
       {/* Mint Announcement Section */}
-      <section className="mint-announcement">
+      {/* <section className="mint-announcement">
         <h2 className="section-title">
           🎉 SOLD OUT! Mutant Archie Apes Have Officially Minted Out! 🎉
         </h2>
@@ -119,7 +121,7 @@ function App() {
         <p className="call-to-action">
           Let’s take this to the next level together. 🚀
         </p>
-      </section>
+      </section> */}
 
       {/* <EmbeddedTweet /> */}
       {/* Discord Ecosystem Section */}
