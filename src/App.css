@@ -208,7 +208,35 @@ body {
   color: #f0edea;
 }
 
+.founder-link {
+  font-size: 16px;
+  color: #f8f3f3;
+  /* Text color for the paragraph */
+}
 
+.founder-link a {
+  color: #1d9bf0;
+  /* Link color (e.g., Twitter's brand color) */
+  text-decoration: none;
+  /* Removes the underline */
+}
+
+.founder-link a:hover {
+  text-decoration: underline;
+  /* Adds underline on hover for better UX */
+}
+
+.founder-description a{
+  color: #1d9bf0;
+  /* Link color (e.g., Twitter's brand color) */
+  text-decoration: none;
+  /* Removes the underline */
+}
+
+.founder-description a:hover {
+  text-decoration: underline;
+  /* Adds underline on hover for better UX */
+}
 
 /* Enhanced Responsive Design */
 @media (max-width: 768px) {
