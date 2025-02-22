@@ -90,6 +90,7 @@ function App() {
           </a>
         </div>
       </header>
+      <ArchieToken />
       {/* Coming Soon Section */}
       <section className="coming-soon">
         <h1 className="coming-soon-text">3D Avatars Coming Soon</h1>
@@ -110,7 +111,6 @@ function App() {
       {/* <DemoSection />
       <MintAnnouncement /> */}
       {/* <ArchieAnnouncement /> */}
-      <ArchieToken />
       <SlideSections />
       <Discord />
       
