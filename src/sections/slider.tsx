@@ -3,8 +3,9 @@ import { motion, AnimatePresence } from "framer-motion";
 import DemoSection from "./game";
 import MintAnnouncement from "./MintAnnouncement ";
 import ArchieAnnouncement from "./archie-annoncement/ArchieAnnouncement";
+import NFTSpaceTicket from "./ticket/NFTSpaceTicket";
 
-const sections = [DemoSection, MintAnnouncement, ArchieAnnouncement]; // Add all sections here
+const sections = [DemoSection, MintAnnouncement, ArchieAnnouncement, NFTSpaceTicket]; // Add all sections here
 
 const SlideSections = () => {
   const [index, setIndex] = useState(2);

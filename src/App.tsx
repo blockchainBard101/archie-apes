@@ -7,10 +7,12 @@ import ArchieToken from "./sections/archie-token/ArchieToken";
 // import MintAnnouncement from './sections/MintAnnouncement ';
 // import ArchieAnnouncement from "./sections/archie-annoncement/ArchieAnnouncement";
 // import DemoSection from "./sections/game";
+// import NFTSpaceTicket from "./sections/ticket/NFTSpaceTicket";
 import Discord from "./sections/Discord";
 import Threed1 from "./assets/Threed1.jpg";
 import Threed2 from "./assets/Threed2.jpg";
 import SlideSections from "./sections/slider";
+
 function App() {
   return (
     <div className="app">
@@ -111,6 +113,7 @@ function App() {
       {/* <DemoSection />
       <MintAnnouncement /> */}
       {/* <ArchieAnnouncement /> */}
+      {/* <NFTSpaceTicket /> */}
       <SlideSections />
       <Discord />
       
