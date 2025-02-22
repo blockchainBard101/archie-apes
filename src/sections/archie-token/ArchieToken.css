@@ -1,0 +1,64 @@
+.archie-token {
+    background-color: #1f2937;
+    border: 2px solid #ecc94b;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.archie-token .section-title {
+    color: #f6ad55;
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.archie-token .next-steps {
+    font-size: 1.2rem;
+    color: #f3f4f6;
+    margin-bottom: 10px;
+}
+
+.archie-token .token-link {
+    font-size: 1rem;
+    color: #fbbf24;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.archie-token .token-link:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .archie-token {
+        padding: 15px;
+        margin: 15px auto;
+    }
+
+    .archie-token .section-title {
+        font-size: 1.5rem;
+    }
+
+    .archie-token .next-steps {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .archie-token {
+        padding: 10px;
+        margin: 10px auto;
+    }
+
+    .archie-token .section-title {
+        font-size: 1.2rem;
+    }
+
+    .archie-token .next-steps {
+        font-size: 0.9rem;
+    }
+}

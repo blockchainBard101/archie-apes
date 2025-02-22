@@ -1,0 +1,93 @@
+.archie-announcement {
+    background-color: #1f2937;
+    border: 2px solid #ecc94b;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.archie-announcement .section-title {
+    color: #f6ad55;
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.archie-announcement .archie-image {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    margin: 15px 0;
+}
+.archie-announcement .announcement,
+.archie-announcement .next-steps {
+    font-size: 1.2rem;
+    color: #f3f4f6;
+    margin-bottom: 10px;
+}
+
+.archie-announcement .call-to-action {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #fbbf24;
+}
+
+.archie-announcement .call-to-action:hover {
+    color: #fbbf24;
+    text-decoration: underline;
+    transition: color 0.3s ease;
+}
+
+.archie-announcement .hashtags {
+    font-size: 1rem;
+    color: #a0aec0;
+    margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+    .archie-announcement {
+        padding: 15px;
+        margin: 15px auto;
+    }
+
+    .archie-announcement .section-title {
+        font-size: 1.5rem;
+    }
+
+    .archie-announcement .announcement,
+    .archie-announcement .next-steps {
+        font-size: 1rem;
+    }
+
+    .archie-announcement .call-to-action {
+        font-size: 1rem;
+    }
+
+    .archie-announcement .archie-image {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .archie-announcement {
+        padding: 10px;
+        margin: 10px auto;
+    }
+
+    .archie-announcement .section-title {
+        font-size: 1.2rem;
+    }
+
+    .archie-announcement .announcement,
+    .archie-announcement .next-steps {
+        font-size: 0.9rem;
+    }
+
+    .archie-announcement .call-to-action {
+        font-size: 0.9rem;
+    }
+}

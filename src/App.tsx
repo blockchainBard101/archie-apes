@@ -1,14 +1,16 @@
 import "./App.css";
-import DemoSection from "./sections/game";
 // import Countdown from "./sections/Countdown";
 import About from "./sections/About";
 import AboutMe from "./sections/About-me";
 import NetworkInstructions from "./sections/NetworkInstructions";
-import MintAnnouncement from './sections/MintAnnouncement ';
+import ArchieToken from "./sections/archie-token/ArchieToken";
+// import MintAnnouncement from './sections/MintAnnouncement ';
+// import ArchieAnnouncement from "./sections/archie-annoncement/ArchieAnnouncement";
+// import DemoSection from "./sections/game";
 import Discord from "./sections/Discord";
 import Threed1 from "./assets/Threed1.jpg";
 import Threed2 from "./assets/Threed2.jpg";
-
+import SlideSections from "./sections/slider";
 function App() {
   return (
     <div className="app">
@@ -105,29 +107,11 @@ function App() {
         </div>
       </section>
 
-      <DemoSection />
-      <MintAnnouncement />
-      {/* Mint Announcement Section */}
-      {/* <section className="mint-announcement">
-        <h2 className="section-title">
-          🎉 SOLD OUT! Mutant Archie Apes Have Officially Minted Out! 🎉
-        </h2>
-        <p className="announcement">
-          A huge THANK YOU to our incredible community for making this happen!
-          🙌 The journey has just begun, and we couldn’t have done it without
-          your support.
-        </p>
-        <p className="next-steps">
-          Stay tuned for what’s next—big things are on the horizon for the
-          Mutant Archie Apes. Welcome to the family, everyone who minted! 🐵💥
-        </p>
-        <p className="call-to-action">
-          Let’s take this to the next level together. 🚀
-        </p>
-      </section> */}
-
-      {/* <EmbeddedTweet /> */}
-      {/* Discord Ecosystem Section */}
+      {/* <DemoSection />
+      <MintAnnouncement /> */}
+      {/* <ArchieAnnouncement /> */}
+      <ArchieToken />
+      <SlideSections />
       <Discord />
       
       <NetworkInstructions />
