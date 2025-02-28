@@ -224,17 +224,13 @@ function App() {
                 </li>
               </ul>
             </div>
-            {/* <div className="roadmap-stage">
+            <div className="roadmap-stage">
               <h3 className="roadmap-title">Phase 3: Gaming & 3D Expansion</h3>
               <ul>
                 <li>
                   Partner with a gaming project to integrate Archie Apes into
                   gameplay or build a custom Archie-themed game.
                 </li>
-                <li>
-                  Distribute 3D Archie Ape NFTs to existing holders as a reward.
-                </li>
-                <li>Airdrop 3D Mutant Ape NFTs to Mutant Archie holders.</li>
               </ul>
             </div>
             <div className="roadmap-stage">
@@ -249,7 +245,7 @@ function App() {
                   to foster engagement.
                 </li>
               </ul>
-            </div> */}
+            </div>
           </div>
 
           <div className="optional-enhancements">
