@@ -224,7 +224,7 @@ function App() {
                 </li>
               </ul>
             </div>
-            <div className="roadmap-stage">
+            {/* <div className="roadmap-stage">
               <h3 className="roadmap-title">Phase 3: Gaming & 3D Expansion</h3>
               <ul>
                 <li>
@@ -249,7 +249,7 @@ function App() {
                   to foster engagement.
                 </li>
               </ul>
-            </div>
+            </div> */}
           </div>
 
           <div className="optional-enhancements">
