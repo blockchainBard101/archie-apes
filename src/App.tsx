@@ -9,8 +9,8 @@ import ArchieToken from "./sections/archie-token/ArchieToken";
 // import DemoSection from "./sections/game";
 // import NFTSpaceTicket from "./sections/ticket/NFTSpaceTicket";
 import Discord from "./sections/Discord";
-import Threed1 from "./assets/Threed1.jpg";
-import Threed2 from "./assets/Threed2.jpg";
+// import Threed1 from "./assets/Threed1.jpg";
+// import Threed2 from "./assets/Threed2.jpg";
 import SlideSections from "./sections/slider";
 
 function App() {
@@ -94,7 +94,7 @@ function App() {
       </header>
       <ArchieToken />
       {/* Coming Soon Section */}
-      <section className="coming-soon">
+      {/* <section className="coming-soon">
         <h1 className="coming-soon-text">3D Avatars Coming Soon</h1>
         <div className="coming-soon-images">
           <img
@@ -108,7 +108,7 @@ function App() {
             className="coming-soon-image"
           />
         </div>
-      </section>
+      </section> */}
 
       {/* <DemoSection />
       <MintAnnouncement /> */}

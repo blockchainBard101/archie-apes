@@ -5,17 +5,17 @@ import MintAnnouncement from "./MintAnnouncement ";
 import ArchieAnnouncement from "./archie-annoncement/ArchieAnnouncement";
 import NFTSpaceTicket from "./ticket/NFTSpaceTicket";
 
-const sections = [DemoSection, MintAnnouncement, ArchieAnnouncement, NFTSpaceTicket]; // Add all sections here
+const sections = [DemoSection, MintAnnouncement, ArchieAnnouncement, NFTSpaceTicket];
 
 const SlideSections = () => {
   const [index, setIndex] = useState(2);
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setIndex((prevIndex) => (prevIndex + 1) % sections.length); // Cycle through sections
-    }, 5000); // Change every 5 seconds
+      setIndex((prevIndex) => (prevIndex + 1) % sections.length);
+    }, 5000);
 
-    return () => clearInterval(interval); // Cleanup on unmount
+    return () => clearInterval(interval);
   }, []);
 
   const ActiveComponent = sections[index];
@@ -24,10 +24,10 @@ const SlideSections = () => {
     <div style={{ overflow: "hidden", width: "100%" }}>
       <AnimatePresence mode="wait">
         <motion.div
-          key={index} // Key updates on every change
-          initial={{ x: "100%", opacity: 0 }} // Start off-screen
-          animate={{ x: 0, opacity: 1 }} // Slide in
-          exit={{ x: "-100%", opacity: 0 }} // Slide out
+          key={index}
+          initial={{ x: "100%", opacity: 0 }}
+          animate={{ x: 0, opacity: 1 }}
+          exit={{ x: "-100%", opacity: 0 }} 
           transition={{ duration: 1, ease: "easeInOut" }}
         >
           <ActiveComponent />
